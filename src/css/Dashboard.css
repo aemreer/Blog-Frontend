@@ -1,0 +1,81 @@
+.dashboasrd-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.dashboard-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: white;
+    padding: 0.7rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dashboard-post-info {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.dashboard-post-image {
+    width: 5rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.btn-dashboard {
+    margin-left: 1rem;
+}
+
+.view {
+    color: #132743;
+    background-image: linear-gradient(to right, #fcd2d2, #fcd2d2);
+    box-shadow: 0 4px 15px 0 rgba(200, 104, 110, 0.70);
+}
+
+
+.view:hover {
+    transform: scale(1.1);
+
+}
+
+.edit {
+    color: #fff;
+    background-image: linear-gradient(to right, #132743, #132743);
+    box-shadow: 0 4px 15px 0 rgba(200, 104, 110, 0.70);
+}
+
+.edit:hover {
+    transform: scale(1.1);
+    background-color: #407088;
+    color: #fff;
+}
+
+.delete {
+    color: #132743;
+    background-image: linear-gradient(to right, #ffb5b5, #ffb5b5);
+    box-shadow: 0 4px 15px 0 rgba(200, 104, 110, 0.70);
+}
+
+
+.delete:hover {
+    transform: scale(1.1);
+
+}
+
+.dashboard-post-action {
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 1024px) {
+
+    .dashboard-post {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
